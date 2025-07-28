@@ -1,0 +1,18 @@
+{
+  "contacts": [
+    {
+      "id": "9e0e",
+      "name": "???",
+      "lastname": "?????",
+      "email": "test@test.com",
+      "phone": "09123456789"
+    },
+    {
+      "id": "bb9a9b32-da46-4aab-9887-6dbb314d663b",
+      "name": "dh",
+      "lastname": "sdfh",
+      "email": "dfg",
+      "phone": "42353643524"
+    }
+  ]
+}
