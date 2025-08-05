@@ -36,15 +36,10 @@ function contactReducer(state, action) {
 				editId: action.payload.id,
 				editContact: action.payload.contact,
 			};
-		case "EDIT_CHANGE":
-			return {
-				...state,
-				editContact: { ...state.editContact, ...action.payload },
-			};
 		case "SAVE_EDIT":
 			return {
 				...state,
-				contacts: state.contacts.map((c) => (c.id === state.editId ? { ...state.editContact, id: state.editId } : c)),
+				contacts: state.contacts.map((c) => (c.id === state.editId ? { ...action.payload, id: state.editId } : c)),
 				editId: null,
 				editContact: {},
 			};

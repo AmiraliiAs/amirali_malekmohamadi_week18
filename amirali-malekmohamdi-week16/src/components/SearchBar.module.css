@@ -1,0 +1,26 @@
+.searchContainer {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto 20px;
+}
+
+.searchInput {
+	width: 100%;
+	border: 2px solid #304ffe;
+	outline: none;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px;
+}
+
+.searchInput input {
+	padding-left: 40px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cpath d='m21 21-4.35-4.35'%3E%3C/path%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: 12px center;
+	background-size: 16px;
+}
+
+.searchInput input:focus {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23304ffe' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cpath d='m21 21-4.35-4.35'%3E%3C/path%3E%3C/svg%3E");
+}
